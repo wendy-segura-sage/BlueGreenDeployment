@@ -27,6 +27,15 @@ pipeline {
 				}
 			}
 		}
+		stage('Create blue container') {
+			steps {
+				withAWS(region:'us-west-2', credentials:'aws-static') {
+					sh '''
+						kubectl run blue --image=gwenevere05/bluegree:$BUILD_ID --port=80
+					'''
+				}
+			}
+		}
 
 	}
 }
