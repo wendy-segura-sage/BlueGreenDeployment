@@ -1,0 +1,14 @@
+{
+     "Comment": "Creating Alias resource record sets in Route 53 for blue system using route53 zoneid for us-west-2",
+     "Changes": [{
+                "Action": "CREATE",
+                "ResourceRecordSet": {
+                            "Name": "wendyscapstoneproject.com",
+                            "Type": "A",
+                            "AliasTarget":{
+                                    "HostedZoneId": "Z1H1FL5HABSF5",
+                                    "DNSName": "dualstack.",
+                                    "EvaluateTargetHealth": false
+                              }}
+                          }]
+}
