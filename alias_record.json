@@ -7,7 +7,7 @@
                             "Type": "A",
                             "AliasTarget":{
                                     "HostedZoneId": "Z1H1FL5HABSF5",
-                                    "DNSName": "dualstack.",
+                                    "DNSName": "dualstack.aae8e6f7fcdd611e9885002b276d7bb5-1055965214.us-west-2.elb.amazonaws.com",
                                     "EvaluateTargetHealth": false
                               }}
                           }]
