@@ -11,7 +11,7 @@ pipeline {
 			steps {
 				withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'dockerhub', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD']]){
 					sh '''
-						sudo docker build -t gwenevere05/bluegreen:$BUILD_ID .
+						docker build -t gwenevere05/bluegreen:$BUILD_ID .
 					'''
 				}
 			}
