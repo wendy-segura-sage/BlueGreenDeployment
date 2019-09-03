@@ -9,7 +9,7 @@ Ubuntu 18.0</br>
 Docker - [Docker Install](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)</br>
 Jenkins - [Jenkins Install](https://jenkins.io/doc/book/installing/)</br>
 
-[Install AWS, kubectl, eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)</br>
+[Installation for all three:](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)</br>
 AWS ClI</br>
 kubectl</br>
 eksctl</br>
