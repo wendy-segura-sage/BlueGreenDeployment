@@ -18,6 +18,7 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
+#https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-1/
 #https://github.com/dennyzhang/cheatsheet-kubernetes-A4
 #kubectl expose deployment my-app --type=LoadBalancer --name=my-service
 kubectl expose deployment bluegreen1 --type=LoadBalancer --port=80
