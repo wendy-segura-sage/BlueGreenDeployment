@@ -1,5 +1,3 @@
-# BlueGreenDeployment
-
 # What is Blue Green deployment?
 It is a DevOps practice aimed to reduce the downtime of updates by creating a new copy of the component while maintaining the current.
  
